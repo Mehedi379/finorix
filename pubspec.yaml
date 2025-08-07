@@ -1,0 +1,65 @@
+name: finorix
+description: A smart, minimal personal expense tracker.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.4.0
+
+  # State management
+  provider: ^6.1.5
+
+  # Local storage
+  shared_preferences: ^2.5.3
+
+  # UUID generation
+  uuid: ^4.5.1
+
+  # Charts for analytics
+  pie_chart: ^5.4.0
+
+  # CSV export functionality
+  csv: ^6.0.0
+  path_provider: ^2.1.5
+  share_plus: ^11.0.0
+
+  # UI icons
+  cupertino_icons: ^1.0.6
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter_native_splash:
+  color: "#1e293b"
+  image: assets/icon/finorix_icon.png
+  android: true
+  ios: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/finorix_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  # Add Inter font
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: fonts/Inter-Regular.otf
+        - asset: fonts/Inter-Medium.otf
+          weight: 500
+        - asset: fonts/Inter-SemiBold.otf
+          weight: 600
+        - asset: fonts/Inter-Bold.otf
+          weight: 700
