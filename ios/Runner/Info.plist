@@ -47,5 +47,12 @@
 		<true/>
 		<key>UIStatusBarHidden</key>
 		<false/>
+		<!-- ✅ Added iOS Permission Descriptions -->
+		<key>NSMicrophoneUsageDescription</key>
+		<string>This app needs access to microphone for voice input</string>
+		<key>NSCameraUsageDescription</key>
+		<string>This app needs access to camera for scanning receipts</string>
+		<key>NSPhotoLibraryUsageDescription</key>
+		<string>This app needs access to photo library for scanning receipts</string>
 	</dict>
 </plist>

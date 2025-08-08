@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "904961918715",
+    "project_id": "finorix-b7326",
+    "storage_bucket": "finorix-b7326.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904961918715:android:43f37fe3f1afe2961ad25e",
+        "android_client_info": {
+          "package_name": "com.example.finorix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0kCDZ5epdncfWw_EYyXSf91Sbb6QFza4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
